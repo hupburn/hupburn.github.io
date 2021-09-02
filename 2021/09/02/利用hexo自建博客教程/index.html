@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="北游">
+    
+    <title>
+        
+            利用hexo自建博客教程 |
+        
+        北游的个人博客
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="/images/na.jpeg">
+    
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {};
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"cn","path":"search.json"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":false,"init_open":false},"style":{"primary_color":"#0066CC","avatar":"/images/na.jpeg","favicon":"/images/na.jpeg","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_img":"/images/bg.svg","description":"Keep writing and Keep loving."},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":false}}},"local_search":{"enable":true,"preload":false},"code_copy":{"enable":true,"style":"default"},"pjax":{"enable":false},"lazyload":{"enable":false},"version":"3.4.3"};
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+  </script>
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                北游的个人博客
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                归档
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">归档</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation">利用hexo自建博客教程</span>
+        </div>
+
+        
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="/images/na.jpeg">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">北游</span>
+                        
+                            <span class="author-label">Lv1</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fas fa-edit"></i>&nbsp;2021-09-02 13:13:04
+    </span>
+    
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fas fa-file-word"></i>&nbsp;<span>779 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fas fa-clock"></i>&nbsp;<span>2 分钟</span>
+        </span>
+    
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <h2 id="hexo-github搭建个人博客"><a href="#hexo-github搭建个人博客" class="headerlink" title="hexo +github搭建个人博客"></a>hexo +github搭建个人博客</h2><p>​       前前后后大概花了两天的时间，目前一个简洁的个人博客搭建完成，后续还会继续完善。现在写个文章做个阶段总结，后续如果有更新的地方，会及时补充。本博客基于Hexo框架，使用hexo-theme-keep主题。</p>
+<h3 id="Hexo-初级搭建"><a href="#Hexo-初级搭建" class="headerlink" title="Hexo 初级搭建"></a>Hexo 初级搭建</h3><h4 id="1-安装Git"><a href="#1-安装Git" class="headerlink" title="1.安装Git"></a>1.安装Git</h4><p><code> Git</code>是目前世界上最先进的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理。<code>Git</code>的作用是将本地的网页文件传到<code>github</code>上。</p>
+<p>输入cmd命令台输入git –version，出现版本号说明安装成功。</p>
+<h4 id="2-安装node-js"><a href="#2-安装node-js" class="headerlink" title="2.安装node.js"></a>2.安装node.js</h4><p><code>Hexo</code>是基于<code>node.js</code>编写的，所以需要安装一下<code>node.js</code>和里面的<code>npm</code>工具。</p>
+<p><strong>windows：</strong> 到<a class="link"   target="_blank" rel="noopener" href="http://nodejs.cn/download/" >Node.js官网<i class="fas fa-external-link-alt"></i></a>下载<code>.exe</code>文件，安装选项全部默认。安装好之后，按<code>Win+R</code>打开cmd命令提示符，输入<code>node -v</code>和<code>npm -v</code>，若出现版本号，则说明安装成功。</p>
+<h4 id="3-添加npm国内加速"><a href="#3-添加npm国内加速" class="headerlink" title="3.添加npm国内加速"></a>3.添加npm国内加速</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+
+<h4 id="4-安装Hexo"><a href="#4-安装Hexo" class="headerlink" title="4.安装Hexo"></a>4.安装Hexo</h4><p>前面<code>git</code>和<code>nodejs</code>安装好后，就可以安装<code>hexo</code>了。在git bash你可以先创建一个文件夹<code>MyBlog</code>，用来存放自己的博客文件，然后<code>cd</code>到这个文件夹下。这个文件夹就是你要搭建博客的地方。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">1.mkdir myblog </span><br><span class="line">2.cd myblog</span><br><span class="line">3.hexo.npm install -g hexo-cli 安装hexo </span><br><span class="line">4.hexo -v          验证hexo是否安装成功</span><br><span class="line">5.hexo init        初始化hexo </span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>前面1到4步基本不会出现啥问题，第五步经常会出行莫名其妙的问题 ，执行 hexo init 会要求你执行 npm install ,到这里就很多人安装不上npm ，网上找的其他教程都没啥用，最好的方法执行下面代码即可安装成功.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install yarn -g</span><br><span class="line">yarn install</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-注册github账号创建个人仓库"><a href="#5-注册github账号创建个人仓库" class="headerlink" title="5.注册github账号创建个人仓库"></a>5.注册github账号创建个人仓库</h3><p>打开<a class="link"   target="_blank" rel="noopener" href="https://github.com/%EF%BC%8C%E6%96%B0%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E4%BB%93%E5%BA%93%60New" >https://github.com/，新建一个项目仓库`New<i class="fas fa-external-link-alt"></i></a> repository`，如下所示：</p>
+<p><img src="C:\Users\xx\AppData\Roaming\Typora\typora-user-images\image-20210902115034912.png" alt="image-20210902115034912"></p>
+<p>然后如下图所示，输入自己的项目名字，后面一定要加<code>.github.io</code>后缀，README初始化也要勾上</p>
+<p><img src="C:\Users\xx\AppData\Roaming\Typora\typora-user-images\image-20210902114950261.png" alt="image-20210902114950261"></p>
+<p>要创建一个和你用户名相同的仓库，后面加<code>.github.io</code>，只有这样，将来要部署到<code>GitHub page</code>的时候，才会被识别，也就是<code>http://xxxx.github.io</code>，其中xxx就是你注册<code>GitHub</code>的用户名。</p>
+<h4 id="6-使用https"><a href="#6-使用https" class="headerlink" title="6.使用https"></a>6.使用https</h4><p><img src="C:\Users\xx\AppData\Roaming\Typora\typora-user-images\image-20210902115309677.png" alt="image-20210902115309677"></p>
+<h4 id="7-将部署到github"><a href="#7-将部署到github" class="headerlink" title="7.将部署到github"></a>7.将部署到github</h4><p>将<code>hexo</code>生成的文章部署到<code>GitHub</code>上，打开博客根目录下的<code>_config.yml</code>文件，这是博客的配置文件，在这里你可以修改与博客配置相关的各种信息。找到如下配置进行修改：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https://github.com/LuckyZmj/LuckyZmj.github.io</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+
+<p><code>repository</code>修改为你自己的<code>github</code>项目地址,即第六步中https地址。</p>
+<p>这个时候需要先安装<code>deploy-git</code> ，也就是部署的命令,这样你才能用命令部署到<code>GitHub</code>。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>然后就可以部署提交到<code>github</code>，过一会儿就可以在<code>http://yourname.github.io</code> 这个网站看到你的博客了</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean  清除缓存</span><br><span class="line">hexo g  生成静态文章</span><br><span class="line">hexo d    部署文章</span><br></pre></td></tr></table></figure>
+
+
+        </div>
+
+        
+
+        
+            <div class="article-nav">
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                           rel="next"
+                           href="/2021/09/01/%E4%BB%A5%E5%88%A9%E4%B8%BA%E5%88%A9/"
+                        >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item"></span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                            <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+              <span>2020</span>&nbsp;-&nbsp;
+            
+            2021&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">北游</a>
+        </div>
+        
+        <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.4.3</a>
+        </div>
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item page-aside-toggle">
+                <i class="fas fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-expand-width flex-center">
+            <i class="fas fa-arrows-alt-h"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    
+        <aside class="page-aside">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2"><span class="nav-text">hexo +github搭建个人博客</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo-%E5%88%9D%E7%BA%A7%E6%90%AD%E5%BB%BA"><span class="nav-text">Hexo 初级搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E5%AE%89%E8%A3%85Git"><span class="nav-text">1.安装Git</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E5%AE%89%E8%A3%85node-js"><span class="nav-text">2.安装node.js</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E6%B7%BB%E5%8A%A0npm%E5%9B%BD%E5%86%85%E5%8A%A0%E9%80%9F"><span class="nav-text">3.添加npm国内加速</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-%E5%AE%89%E8%A3%85Hexo"><span class="nav-text">4.安装Hexo</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E6%B3%A8%E5%86%8Cgithub%E8%B4%A6%E5%8F%B7%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%BB%93%E5%BA%93"><span class="nav-text">5.注册github账号创建个人仓库</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#6-%E4%BD%BF%E7%94%A8https"><span class="nav-text">6.使用https</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-%E5%B0%86%E9%83%A8%E7%BD%B2%E5%88%B0github"><span class="nav-text">7.将部署到github</span></a></li></ol></li></ol></li></ol>
+    </div>
+</div>
+        </aside>
+    
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+
+    
+<script src="/js/code-copy.js"></script>
+
+
+
+
+
+<div class="post-scripts">
+    
+        
+<script src="/js/left-side-toggle.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+<script src="/js/toc.js"></script>
+
+    
+</div>
+
+
+
+</body>
+</html>
